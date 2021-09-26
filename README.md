@@ -1,4 +1,4 @@
-# mer.api
+# MER.API
 MER.API - Medical Engineering Research API
 
 Taken from Mount Merapi
