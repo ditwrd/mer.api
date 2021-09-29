@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "mer.api"
+version = "0.1.0"
+description = ""
+authors = ["Aditya Wardianto <adityawardianto.19073@mhs.its.ac.id>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+numpy = ">=1.19.2,<1.20.0"
+numba = "^0.54.0"
+numexpr = "^2.7.3"
+pandas = "1.3.2"
+modin = "^0.10.2"
+streamlit = "^0.89.0"
+fastapi = "^0.68.1"
+tensorflow = "^2.6.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+matplotlib = "^3.4.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
