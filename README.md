@@ -7,7 +7,7 @@ Taken from Mount Merapi
 Mount Merapi, Gunung Merapi, is an active stratovolcano located on the border between the province of Central Java and the Special Region of Yogyakarta, Indonesia. It is the most active volcano in Indonesia and has erupted regularly since 1548. [Wikipedia](https://en.wikipedia.org/wiki/Mount_Merapi)
 
 ## What?
-Medical Engineering Research API or MER.API is an Open Source API based platform that collect multiple medical or biomedical engineering related machine learning model while still honoring and citing the researcher doing the research. 
+Medical Engineering Research API or MER.API is an Open Source API based platform that compile multiple medical or biomedical engineering related machine learning model while still honoring and citing the researcher doing the research. 
 
 ## How?
 The current approach is to do the most minimalistic (maybe a bit naive) approach to get everything done. This project use Streamlit as Frontend, FastAPI as Backend, Docker to containeraze the app and Heroku to deploy. Props to the guy writing this [blog](https://testdriven.io/blog/fastapi-streamlit/) that initiate this approach , I don't know if he is the first that tought about this, but his blog is the first that I had read about using this approach.
