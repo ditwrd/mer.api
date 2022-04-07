@@ -10,7 +10,8 @@ Mount Merapi, Gunung Merapi, is an active stratovolcano located on the border be
 Medical Engineering Research API or MER.API is an Open Source API based platform that compile multiple medical or biomedical engineering related machine learning model while still honoring and citing the researcher doing the research. 
 
 ## How?
-The current approach is to do the most minimalistic (maybe a bit naive) approach to get everything done. This project use Streamlit as Frontend, FastAPI as Backend, Docker to containeraze the app and Heroku to deploy. Props to the guy writing this [blog](https://testdriven.io/blog/fastapi-streamlit/) that initiate this approach , I don't know if he is the first that tought about this, but his blog is the first that I had read about using this approach.
+Update: 07 April 2022
+After a little bit of research and learning, I'm going for the monorepo structure, for the API I'll be using FastAPI, for the frontend stuff I'll be using NextJS, for the database with my current knowledge I'll be using Firebase
 
 ## Why?
 This project started due to the predicament the author had trying to search for biomedical engineering AI related paper, grasping the concept in the theory while diving deep down in the code. While some popular website such as https://paperswithcode.com may give a lot of good information and maintaining the balance between paper and code, I'm just not that bright to get everything sorted inside my head. The aim of this project is to make AI more approachable (not necessarily easy) for undergradute students or maybe some self taught guys out there (props to you guys) or anybody else by showing the model in action via the web app while still giving access to the API and more importantly citing the paper (maybe give some more explaination)
